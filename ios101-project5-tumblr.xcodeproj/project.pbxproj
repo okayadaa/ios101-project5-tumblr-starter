@@ -18,6 +18,8 @@
 		EDDD507A2DC420B400B71C96 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = EDDD50792DC420B400B71C96 /* NukeExtensions */; };
 		EDDD507C2DC420B400B71C96 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = EDDD507B2DC420B400B71C96 /* NukeUI */; };
 		EDDD507E2DC420B400B71C96 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = EDDD507D2DC420B400B71C96 /* NukeVideo */; };
+		F768B3162E25EA0B00D41C00 /* tumblrFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768B3152E25EA0B00D41C00 /* tumblrFeedCell.swift */; };
+		F768B3182E26F02300D41C00 /* NukeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768B3172E26F02300D41C00 /* NukeExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		ED59161B29BC307E000F25AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED59161D29BC307E000F25AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED59162329BC4921000F25AE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F768B3152E25EA0B00D41C00 /* tumblrFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumblrFeedCell.swift; sourceTree = SOURCE_ROOT; };
+		F768B3172E26F02300D41C00 /* NukeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NukeExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +73,9 @@
 				ED59160F29BC307D000F25AE /* AppDelegate.swift */,
 				ED59161129BC307D000F25AE /* SceneDelegate.swift */,
 				ED59161329BC307D000F25AE /* ViewController.swift */,
+				F768B3172E26F02300D41C00 /* NukeExtensions.swift */,
 				ED59162329BC4921000F25AE /* Post.swift */,
+				F768B3152E25EA0B00D41C00 /* tumblrFeedCell.swift */,
 				ED59161529BC307D000F25AE /* Main.storyboard */,
 				ED59161829BC307E000F25AE /* Assets.xcassets */,
 				ED59161A29BC307E000F25AE /* LaunchScreen.storyboard */,
@@ -160,7 +166,9 @@
 			files = (
 				ED59161429BC307D000F25AE /* ViewController.swift in Sources */,
 				ED59161029BC307D000F25AE /* AppDelegate.swift in Sources */,
+				F768B3182E26F02300D41C00 /* NukeExtensions.swift in Sources */,
 				ED59161229BC307D000F25AE /* SceneDelegate.swift in Sources */,
+				F768B3162E25EA0B00D41C00 /* tumblrFeedCell.swift in Sources */,
 				ED59162429BC4921000F25AE /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CVGZK5C3L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios101-project5-tumblr/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-project5-tumblr";
+				PRODUCT_BUNDLE_IDENTIFIER = adaDevTumblr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -335,6 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5CVGZK5C3L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ios101-project5-tumblr/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -347,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.ios101-project5-tumblr";
+				PRODUCT_BUNDLE_IDENTIFIER = adaDevTumblr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
