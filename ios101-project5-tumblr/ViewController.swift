@@ -43,11 +43,13 @@ let refreshCtrl = UIRefreshControl()
     }
 
     @objc func refreshPosts() {
-        fetchPosts()
-    }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { 
+                self.fetchPosts()
+            }
+        }
 
     func fetchPosts() {
-        let url = URL(string: "https://api.tumblr.com/v2/blog/humansofnewyork/posts/photo?api_key=1zT8CiXGXFcQDyMFG7RtcfGLwTdDjFUJnZzKJaWTmgyK4lKGYk")!
+        let url = URL(string: "https://api.tumblr.com/v2/blog/humansofnewyork/posts/photo?api_key=BROrZrZhgP9t1SPXcJCzILUBEm5MzVvVSAcYY3qqFrHfVsMx55")!
         let session = URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
                 print("❌ Error: \(error.localizedDescription)")
